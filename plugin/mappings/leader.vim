@@ -20,3 +20,12 @@ vmap <Leader>/ :Commentary <CR>
 
 nmap <Leader>, :nohlsearch<CR>
 
+nnoremap <Leader>- :MRU<CR>
+
+nnoremap <Leader>o :only<CR>
+
+" <Leader>r -- Cycle through relativenumber + number, number (only), and no
+" numbering (mnemonic: relative).
+nnoremap <silent> <Leader>r :call mappings#leader#cycle_numbering()<CR>
+
+nnoremap <Leader>c :w !pbcopy<CR>

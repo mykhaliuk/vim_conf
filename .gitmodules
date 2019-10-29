@@ -1,0 +1,18 @@
+[submodule "pack/bundle/start/mru"]
+	path = pack/bundle/start/mru
+	url = git@github.com:yegappan/mru.git
+[submodule "pack/bundle/start/commentary"]
+	path = pack/bundle/start/commentary
+	url = https://tpope.io/vim/commentary.git
+[submodule "pack/bundle/start/vim-surround"]
+	path = pack/bundle/start/vim-surround
+	url = https://github.com/tpope/vim-surround.git
+[submodule "/Users/vo/.vim/bundle/vim-airline-themes"]
+	path = /Users/vo/.vim/bundle/vim-airline-themes
+	url = https://github.com/vim-airline/vim-airline-themes
+[submodule "pack/bundle/start/vim-airline-themes"]
+	path = pack/bundle/start/vim-airline-themes
+	url = https://github.com/vim-airline/vim-airline-themes
+[submodule "pack/bundle/start/vim-airline"]
+	path = pack/bundle/start/vim-airline
+	url = https://github.com/vim-airline/vim-airline

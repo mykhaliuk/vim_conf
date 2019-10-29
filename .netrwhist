@@ -1,7 +1,6 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhistcnt =3
-let g:netrw_dirhist_3='/Users/vo/.vim'
-let g:netrw_dirhist_2='/Users/vo/.vim/plugin/mappings'
+let g:netrw_dirhistcnt =2
+let g:netrw_dirhist_2='/Users/vo/.vim/autoload'
 let g:netrw_dirhist_1='/Users/vo/.vim'
 let g:netrw_dirhist_0='/Users/vo'
 let g:netrw_dirhist_9='/Users/vo/Desktop'
@@ -10,3 +9,4 @@ let g:netrw_dirhist_7='/Users/vo/Desktop/experiments/_React-native Projects'
 let g:netrw_dirhist_6='/Users/vo/Desktop/experiments/_React-native Projects/SmartLamp'
 let g:netrw_dirhist_5='/Users/vo/Desktop/experiments/_React-native Projects/SmartLamp/src'
 let g:netrw_dirhist_4='/Users/vo/Desktop/experiments/_React-native Projects/SmartLamp/src'
+let g:netrw_dirhist_3='/Users/vo/.vim'
