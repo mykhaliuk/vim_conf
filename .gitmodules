@@ -1,6 +1,3 @@
-[submodule "pack/bundle/start/mru"]
-	path = pack/bundle/start/mru
-	url = git@github.com:yegappan/mru.git
 [submodule "pack/bundle/start/commentary"]
 	path = pack/bundle/start/commentary
 	url = https://tpope.io/vim/commentary.git
@@ -19,3 +16,6 @@
 [submodule "pack/bundle/start/typescript-vim"]
 	path = pack/bundle/start/typescript-vim
 	url = https://github.com/leafgarland/typescript-vim.git
+[submodule "pack/bundle/start/command-t"]
+	path = pack/bundle/start/command-t
+	url = https://github.com/wincent/command-t.git

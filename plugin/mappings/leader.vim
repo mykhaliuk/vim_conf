@@ -21,8 +21,6 @@ vmap <Leader>/ :Commentary <CR>
 
 nmap <Leader>, :nohlsearch<CR>
 
-nnoremap <Leader>t :MRU<CR>
-
 nnoremap <Leader>o :only<CR>
 
 " <Leader>r -- Cycle through relativenumber + number, number (only), and no

@@ -39,6 +39,10 @@ let g:airline#extensions#tabline#enabled=1
 let g:airline#extensions#tabline#formatter = 'jsformatter'        " 'default' | 'unique_tail' | 'unique_tail_improved'
 let g:airline_theme='onedark'
 
-packadd! vim-surround
-packadd! mru
-packadd! commentary
+set wildchar=<Tab> wildmenu wildmode=full
+
+
+
+" packadd! vim-surround
+" packadd! mru
+" packadd! commentary
