@@ -9,6 +9,7 @@ nnoremap <Leader>p :echo expand('%')<CR>
 
 nnoremap <Leader>w :write<CR>
 nnoremap <Leader>x :xit<CR>
+nnoremap <Leader>q :q<CR>
 
 " <LocalLeader>c -- Fix (most) syntax highlighting problems in current buffer
 " (mnemonic: coloring).
@@ -20,7 +21,7 @@ vmap <Leader>/ :Commentary <CR>
 
 nmap <Leader>, :nohlsearch<CR>
 
-nnoremap <Leader>- :MRU<CR>
+nnoremap <Leader>t :MRU<CR>
 
 nnoremap <Leader>o :only<CR>
 
@@ -28,4 +29,5 @@ nnoremap <Leader>o :only<CR>
 " numbering (mnemonic: relative).
 nnoremap <silent> <Leader>r :call mappings#leader#cycle_numbering()<CR>
 
-nnoremap <Leader>c :w !pbcopy<CR>
+" Copy selection to OS buffer
+vnoremap <Leader>c :w !pbcopy<CR><CR>

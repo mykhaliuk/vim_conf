@@ -1,3 +1,5 @@
+colorscheme onedark
+
 let mapleader="\<Space>"
 let maplocalleader="\\"
 
@@ -35,7 +37,7 @@ let g:airline#extensions#tabline#enabled=1
 " let g:airline#extensions#tabline#left_sep = ' '
 " let g:airline#extensions#tabline#left_alt_sep = '|'
 let g:airline#extensions#tabline#formatter = 'jsformatter'        " 'default' | 'unique_tail' | 'unique_tail_improved'
-let g:airline_theme='deus'
+let g:airline_theme='onedark'
 
 packadd! vim-surround
 packadd! mru

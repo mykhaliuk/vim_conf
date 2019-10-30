@@ -16,3 +16,6 @@
 [submodule "pack/bundle/start/vim-airline"]
 	path = pack/bundle/start/vim-airline
 	url = https://github.com/vim-airline/vim-airline
+[submodule "pack/bundle/start/typescript-vim"]
+	path = pack/bundle/start/typescript-vim
+	url = https://github.com/leafgarland/typescript-vim.git

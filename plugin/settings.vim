@@ -54,4 +54,11 @@ set whichwrap=b,h,l,s,<,>,[,],~       " allow <BS>/h/l/<Left>/<Right>/<Space>, ~
 if has('wildmenu')
   set wildmenu                        " show options as list when switching buffers etc
 endif
+
+" Set syntax highlight in .tsx files
+augroup SyntaxSettings
+    autocmd!
+    autocmd BufNewFile,BufRead *.tsx set filetype=typescript
+augroup END
+
 set wildmode=longest:full,full        " shell-like autocomplete to unambiguous portion
