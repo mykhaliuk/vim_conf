@@ -16,6 +16,6 @@
 [submodule "pack/bundle/start/typescript-vim"]
 	path = pack/bundle/start/typescript-vim
 	url = https://github.com/leafgarland/typescript-vim.git
-[submodule "pack/bundle/start/command-t"]
-	path = pack/bundle/start/command-t
-	url = https://github.com/wincent/command-t.git
+[submodule "pack/bundle/start/ctrlp.vim"]
+	path = pack/bundle/start/ctrlp.vim
+	url = https://github.com/ctrlpvim/ctrlp.vim.git

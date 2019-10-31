@@ -29,3 +29,13 @@ nnoremap <silent> <Leader>r :call mappings#leader#cycle_numbering()<CR>
 
 " Copy selection to OS buffer
 vnoremap <Leader>c :w !pbcopy<CR><CR>
+
+let g:ctrlp_map = ""                      " disable default mappings of CtrlP
+nnoremap  <Leader>p :CtrlP<CR>            " open Command-t like file serch
+nnoremap  <Leader>b :CtrlPBuffer<CR>      " open buffers browser
+nnoremap  <Leader>f :CtrlPMRU<<CR>        " open MRU like file search
+
+let g:ctrlp_prompt_mappings = {
+                        \ 'ToggleFocus()':        ['<tab>'],
+                        \ 'PrtExpandDir()':       ['<M-tab>'],
+                        \}

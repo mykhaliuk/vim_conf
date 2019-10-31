@@ -41,7 +41,7 @@ let g:airline_theme='onedark'
 
 set wildchar=<Tab> wildmenu wildmode=full
 
-
+set runtimepath^=~/.vim/bundle/ctrlp.vim       " Runtime path for ctrlp plugin
 
 " packadd! vim-surround
 " packadd! mru
