@@ -25,3 +25,6 @@
 [submodule "pack/bundle/start/scalpel"]
 	path = pack/bundle/start/scalpel
 	url = https://github.com/wincent/scalpel.git
+[submodule "pack/bundle/start/undotree"]
+	path = pack/bundle/start/undotree
+	url = https://github.com/mbbill/undotree.git

@@ -66,3 +66,4 @@ augroup SyntaxSettings
 augroup END
 
 set wildmode=longest:full,full        " shell-like autocomplete to unambiguous portion
+
