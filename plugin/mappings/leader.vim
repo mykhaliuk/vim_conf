@@ -13,7 +13,7 @@ nnoremap <Leader>q :q<CR>
 
 " <LocalLeader>c -- Fix (most) syntax highlighting problems in current buffer
 " (mnemonic: coloring).
-nnoremap <silent> <LocalLeader>c :syntax sync fromstart<CR>
+nnoremap <silent> <LocalLeader>s :syntax sync fromstart<CR>
 " Leader-. to reload .vimrc
 
 nmap <Leader>/ :Commentary <CR>
@@ -31,11 +31,17 @@ nnoremap <silent> <Leader>r :call mappings#leader#cycle_numbering()<CR>
 vnoremap <Leader>c :w !pbcopy<CR><CR>
 
 let g:ctrlp_map = ""                      " disable default mappings of CtrlP
+let g:ctrlp_arg_map = 1
 nnoremap  <Leader>p :CtrlP<CR>            " open Command-t like file serch
 nnoremap  <Leader>b :CtrlPBuffer<CR>      " open buffers browser
 nnoremap  <Leader>f :CtrlPMRU<<CR>        " open MRU like file search
 
 let g:ctrlp_prompt_mappings = {
-                        \ 'ToggleFocus()':        ['<tab>'],
-                        \ 'PrtExpandDir()':       ['<M-tab>'],
-                        \}
+                        \ 'ToggleFocus()':        ['<S-tab>'],
+                        \ 'PrtExpandDir()':       ['<tab>'],
+                       \}
+let g:ctrlp_custom_ignore = {
+  \ 'dir':  '\.git$\|node_modules$',
+  \ }
+  " \ 'file': '\.so$\|\.dat$|\.DS_Store$'
+

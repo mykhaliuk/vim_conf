@@ -1,11 +1,16 @@
 scriptencoding utf-8
 
-set number                      " Show current line number
+set cursorline
+set number                      " show line numbers in gutter
 set relativenumber              " Show relative line numbers
 set ai                          " Copy indent from current line when starting a new line (typing <CR> in Insert mode or when using the "o" or "O" command).
 set si                          " Do smart autoindenting when starting a new line.  Works for C-like programs, but can also be used for other languages.
-set tabstop=2
-set expandtab                         " always use spaces instead of tabs
+
+set tabstop=2          " softtabstop:      Fine tunes the amount of white space to be added
+set softtabstop=2      " shiftwidth        Determines the amount of whitespace to add in normal mode
+set shiftwidth=2       " expandtab:        When on uses space instead of tabs
+set expandtab
+autocmd FileType python set shiftwidth=2 tabstop=2 expandtab
 set backspace=indent,eol,start
 
 if exists('&belloff')
@@ -28,7 +33,6 @@ set listchars+=precedes:«             " LEFT-POINTING DOUBLE ANGLE QUOTATION MA
 set listchars+=trail:•                " BULLET (U+2022, UTF-8: E2 80 A2)
 set modelines=5                       " scan this many lines looking for modeline
 set nojoinspaces                      " don't autoinsert two spaces after '.', '?', '!' for join command
-set number                            " show line numbers in gutter
 
 if has('linebreak')
   let &showbreak='⤷ '                 " DOWNWARDS ARROW WITH TIP RIGHTWARDS (U+21B3, UTF-8: E2 86 B3)
