@@ -34,3 +34,6 @@
 [submodule "pack/bundle/start/anyfold"]
 	path = pack/bundle/start/anyfold
 	url = https://github.com/pseewald/vim-anyfold.git
+[submodule "pack/bundle/start/vim-signify"]
+	path = pack/bundle/start/vim-signify
+	url = https://github.com/mhinz/vim-signify.git
