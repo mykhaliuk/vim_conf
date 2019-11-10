@@ -4,9 +4,6 @@
 [submodule "pack/bundle/start/vim-surround"]
 	path = pack/bundle/start/vim-surround
 	url = https://github.com/tpope/vim-surround.git
-[submodule "/Users/vo/.vim/bundle/vim-airline-themes"]
-	path = /Users/vo/.vim/bundle/vim-airline-themes
-	url = https://github.com/vim-airline/vim-airline-themes
 [submodule "pack/bundle/start/vim-airline-themes"]
 	path = pack/bundle/start/vim-airline-themes
 	url = https://github.com/vim-airline/vim-airline-themes
