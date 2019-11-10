@@ -13,9 +13,6 @@
 [submodule "pack/bundle/start/ctrlp.vim"]
 	path = pack/bundle/start/ctrlp.vim
 	url = https://github.com/ctrlpvim/ctrlp.vim.git
-[submodule "pack/bundle/start/YouCompleteMe"]
-	path = pack/bundle/start/YouCompleteMe
-	url = https://github.com/ycm-core/YouCompleteMe.git
 [submodule "pack/bundle/start/scalpel"]
 	path = pack/bundle/start/scalpel
 	url = https://github.com/wincent/scalpel.git
