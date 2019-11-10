@@ -1,3 +1,4 @@
+" Vim settings file
 scriptencoding utf-8
 
 set cursorline
