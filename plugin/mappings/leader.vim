@@ -46,3 +46,5 @@ let g:ctrlp_custom_ignore = {
   " \ 'file': '\.so$\|\.dat$|\.DS_Store$'
 
 nnoremap <Leader>h :UndotreeToggle \| UndotreeFocus<cr>
+
+nnoremap <Leader>a :Ack! --color-match='bold blue'<Space>
