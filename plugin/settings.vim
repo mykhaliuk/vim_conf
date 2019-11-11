@@ -84,3 +84,6 @@ function! LoadMainNodeModule(fname)
 endfunction
 
 set includeexpr=LoadMainNodeModule(v:fname)
+
+set undodir=$HOME/.vim/.undo
+set undofile

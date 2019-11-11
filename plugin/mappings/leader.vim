@@ -47,4 +47,4 @@ let g:ctrlp_custom_ignore = {
 
 nnoremap <Leader>h :UndotreeToggle \| UndotreeFocus<cr>
 
-nnoremap <Leader>a :Ack! --color-match='bold blue'<Space>
+nnoremap <Leader>a :Ack!<Space>
