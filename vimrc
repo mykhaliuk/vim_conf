@@ -50,6 +50,4 @@ set wildchar=<Tab> wildmenu wildmode=full
 
 set runtimepath^=~/.vim/bundle/ctrlp.vim       " Runtime path for ctrlp plugin
 
-" packadd! vim-surround
-" packadd! mru
-" packadd! commentary
+let g:deoplete#enable_at_startup = 1
