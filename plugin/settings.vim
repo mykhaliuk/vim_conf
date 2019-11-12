@@ -85,5 +85,5 @@ endfunction
 
 set includeexpr=LoadMainNodeModule(v:fname)
 
-set undodir=$HOME/.vim/.undo
+set undodir=$HOME/.local/share/undo
 set undofile
