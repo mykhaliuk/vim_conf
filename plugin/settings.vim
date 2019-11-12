@@ -11,7 +11,9 @@ set tabstop=2          " softtabstop:      Fine tunes the amount of white space 
 set softtabstop=2      " shiftwidth        Determines the amount of whitespace to add in normal mode
 set shiftwidth=2       " expandtab:        When on uses space instead of tabs
 set expandtab
+
 autocmd FileType python set shiftwidth=2 tabstop=2 expandtab
+
 set backspace=indent,eol,start
 
 if exists('&belloff')
@@ -34,6 +36,12 @@ set listchars+=precedes:«             " LEFT-POINTING DOUBLE ANGLE QUOTATION MA
 set listchars+=trail:•                " BULLET (U+2022, UTF-8: E2 80 A2)
 set modelines=5                       " scan this many lines looking for modeline
 set nojoinspaces                      " don't autoinsert two spaces after '.', '?', '!' for join command
+
+" You will have bad experience for diagnostic messages when it's default 4000.
+set updatetime=300
+
+" always show signcolumns
+set signcolumn=yes
 
 if has('linebreak')
   let &showbreak='⤷ '                 " DOWNWARDS ARROW WITH TIP RIGHTWARDS (U+21B3, UTF-8: E2 86 B3)

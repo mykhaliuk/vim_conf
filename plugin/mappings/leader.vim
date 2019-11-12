@@ -7,9 +7,9 @@ nnoremap <Leader><Leader> <C-^>
 " you have a lot of splits and the status line gets truncated).
 nnoremap <Leader>p :echo expand('%')<CR>
 
-nnoremap <Leader>w :write<CR>
-nnoremap <Leader>x :xit<CR>
-nnoremap <Leader>q :q<CR>
+nnoremap <silent> <Leader>w :write<CR>
+nnoremap <silent> <Leader>x :xit<CR>
+nnoremap <silent> <Leader>q :q<CR>
 
 " <LocalLeader>c -- Fix (most) syntax highlighting problems in current buffer
 " (mnemonic: coloring).
