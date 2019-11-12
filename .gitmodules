@@ -37,6 +37,3 @@
 [submodule "pack/bundle/start/ack.vim"]
 	path = pack/bundle/start/ack.vim
 	url = https://github.com/mileszs/ack.vim.git
-[submodule "pack/bundle/start/deoplete.nvim"]
-	path = pack/bundle/start/deoplete.nvim
-	url = https://github.com/Shougo/deoplete.nvim.git
