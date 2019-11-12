@@ -37,3 +37,6 @@
 [submodule "pack/bundle/start/ack.vim"]
 	path = pack/bundle/start/ack.vim
 	url = https://github.com/mileszs/ack.vim.git
+[submodule "pack/bundle/start/coc.vim"]
+	path = pack/bundle/start/coc.vim
+	url = https://github.com/neoclide/coc.nvim.git
