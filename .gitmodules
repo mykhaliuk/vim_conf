@@ -37,3 +37,15 @@
 [submodule "pack/bundle/start/coc.vim"]
 	path = pack/bundle/start/coc.vim
 	url = https://github.com/neoclide/coc.nvim.git
+[submodule "pack/bundle/start/nerdtree"]
+	path = pack/bundle/start/nerdtree
+	url = https://github.com/scrooloose/nerdtree.git
+[submodule "pack/bundle/start/vim-nerdtree-syntax-highlight"]
+	path = pack/bundle/start/vim-nerdtree-syntax-highlight
+	url = https://github.com/tiagofumo/vim-nerdtree-syntax-highlight.git
+[submodule "pack/bundle/start/vim-devicons"]
+	path = pack/bundle/start/vim-devicons
+	url = https://github.com/ryanoasis/vim-devicons.git
+[submodule "pack/bundle/start/nerdtree-git-plugin"]
+	path = pack/bundle/start/nerdtree-git-plugin
+	url = https://github.com/Xuyuanp/nerdtree-git-plugin.git
