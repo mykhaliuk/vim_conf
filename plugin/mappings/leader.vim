@@ -9,12 +9,11 @@ nnoremap <Leader>p :echo expand('%')<CR>
 
 nnoremap <silent> <Leader>w :write<CR>
 nnoremap <silent> <Leader>x :xit<CR>
-nnoremap <silent> <Leader>q :q<CR>
+nnoremap <silent> <LocalLeader>q :q<CR>
 
 " <LocalLeader>c -- Fix (most) syntax highlighting problems in current buffer
 " (mnemonic: coloring).
 nnoremap <silent> <LocalLeader>s :syntax sync fromstart<CR>
-" Leader-. to reload .vimrc
 
 nmap <Leader>/ :Commentary <CR>
 vmap <Leader>/ :Commentary <CR>

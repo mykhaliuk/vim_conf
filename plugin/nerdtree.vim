@@ -1,6 +1,14 @@
-nnoremap <C-n> :NERDTreeToggle<CR>                  " NERDTreeToggle map
+ " NERDTreeToggle map
+nnoremap <C-n> :NERDTreeToggle<CR>
 
-autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTree") && b:NERDTree.isTabTree()) | q | endif          "close vim if the only window left open is a NERDTree
+"close vim if the only window left open is a NERDTree
+autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTree") && b:NERDTree.isTabTree()) | q | endif
+
+" Open on right side
+let g:NERDTreeWinPos = "right"
+
+" Show bookmarks table
+let g:NERDTreeShowBookmarks = 1
 
 " If more than one window and previous buffer was NERDTree, go back to it.
 autocmd BufEnter * if bufname('#') =~# "^NERD_tree_" && winnr('$') > 1 | b# | endif

@@ -22,10 +22,10 @@ set visualbell           " don't beep
 set noerrorbells         " don't beep
 
 " Easy window navigation
-nnoremap <C-h> <C-w>h
-nnoremap <C-j> <C-w>j
-nnoremap <C-k> <C-w>k
-nnoremap <C-l> <C-w>l
+" nnoremap <C-h> <C-w>h
+" nnoremap <C-j> <C-w>j
+" nnoremap <C-k> <C-w>k
+" nnoremap <C-l> <C-w>l
 
 if has('gui')
   " Turn off scrollbars. (Default on macOS is "egmrL").
@@ -39,8 +39,8 @@ endif
 set showtabline=2               "Show vim tab line even if only one file is open
 " let g:airline_statusline_ontop=1
 let g:airline#extensions#tabline#enabled=1
-" let g:airline#extensions#tabline#left_sep = ' '
-" let g:airline#extensions#tabline#left_alt_sep = '|'
+let g:airline#extensions#tabline#left_sep = ' '
+let g:airline#extensions#tabline#left_alt_sep = '|'
 let g:airline#extensions#tabline#formatter = 'jsformatter'        " 'default' | 'unique_tail' | 'unique_tail_improved'
 let g:airline_theme='onedark'
 
