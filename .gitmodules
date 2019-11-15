@@ -49,3 +49,6 @@
 [submodule "pack/bundle/start/nerdtree-git-plugin"]
 	path = pack/bundle/start/nerdtree-git-plugin
 	url = https://github.com/Xuyuanp/nerdtree-git-plugin.git
+[submodule "pack/bundle/start/YankRing.vim"]
+	path = pack/bundle/start/YankRing.vim
+	url = https://github.com/vim-scripts/YankRing.vim.git

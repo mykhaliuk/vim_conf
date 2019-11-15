@@ -7,27 +7,35 @@ nnoremap <Leader><Leader> <C-^>
 " you have a lot of splits and the status line gets truncated).
 nnoremap <Leader>p :echo expand('%')<CR>
 
-nnoremap <silent> <Leader>w :write<CR>
-nnoremap <silent> <Leader>x :xit<CR>
+nnoremap <silent> <LocalLeader>w :write<CR>
+nnoremap <silent> <LocalLeader>x :xit<CR>
 nnoremap <silent> <LocalLeader>q :q<CR>
 
-" <LocalLeader>c -- Fix (most) syntax highlighting problems in current buffer
+" <LocalLeader>s -- Fix (most) syntax highlighting problems in current buffer
 " (mnemonic: coloring).
 nnoremap <silent> <LocalLeader>s :syntax sync fromstart<CR>
 
 nmap <Leader>/ :Commentary <CR>
 vmap <Leader>/ :Commentary <CR>
 
+" Buffer navigation
+nnoremap <Leader>. :bn<cr>
+nnoremap <Leader>, :bp<cr>
+nnoremap <Leader>d :bd<cr>
+
 nmap <Leader>, :nohlsearch<CR>
 
 nnoremap <Leader>o :only<CR>
+
+" cycling through the cut/copy history
+nnoremap <LocalLeader>p :let @x=@" \| let @"=@a \| let @a=@b \| let @b=@x<CR>
 
 " <Leader>r -- Cycle through relativenumber + number, number (only), and no
 " numbering (mnemonic: relative).
 nnoremap <silent> <Leader>r :call mappings#leader#cycle_numbering()<CR>
 
 " Copy selection to OS buffer
-vnoremap <Leader>c :w !pbcopy<CR><CR>
+vnoremap <Leader>c "*y          ":w !pbcopy<CR><CR>
 
 let g:ctrlp_map = ""                      " disable default mappings of CtrlP
 let g:ctrlp_arg_map = 1
