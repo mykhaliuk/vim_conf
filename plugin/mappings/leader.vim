@@ -20,7 +20,6 @@ vmap <Leader>/ :Commentary <CR>
 
 " Buffer navigation
 nnoremap <Leader>. :bn<cr>
-nnoremap <Leader>, :bp<cr>
 nnoremap <Leader>d :bd<cr>
 
 nmap <Leader>, :nohlsearch<CR>
