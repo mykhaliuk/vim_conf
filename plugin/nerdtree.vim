@@ -1,6 +1,8 @@
  " NERDTreeToggle map
 nnoremap <M-n> :NERDTreeFocus<CR>
 
+let g:NERDTreeIgnore = ['^node_modules$']
+
 "close vim if the only window left open is a NERDTree
 autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTree") && b:NERDTree.isTabTree()) | q | endif
 
@@ -8,7 +10,10 @@ autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTree") && b:NERDTree.isT
 let g:NERDTreeWinPos = "right"
 
 " Show bookmarks table
-let g:NERDTreeShowBookmarks = 1
+let g:NERDTreeSortHiddenFirst = 1
+let g:NERDtreeQuitOnOpen = 2
+let g:NERDtreeShowLineNumbers = 1
+let g:NERDTreeMinimalUI = 1
 
 " If more than one window and previous buffer was NERDTree, go back to it.
 autocmd BufEnter * if bufname('#') =~# "^NERD_tree_" && winnr('$') > 1 | b# | endif

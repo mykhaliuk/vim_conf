@@ -75,6 +75,7 @@ augroup SyntaxSettings
 augroup END
 
 set wildmode=longest:full,full        " shell-like autocomplete to unambiguous portion
+set wildignore+=*/tmp/*,*.so,*.swp,*.zip,*/.tmp/*,*/.sass-cache/*,*/node_modules/*,*.keep,*.DS_Store,*/.git/*,*/.idea/*,*/ios/*,*/android/*,*/.expo/*,*/.vscode/*
 
 "Reolve paths in JS/TS imports
 set path=.,src
