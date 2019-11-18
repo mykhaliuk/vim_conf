@@ -19,9 +19,6 @@
 [submodule "pack/bundle/start/comfortable-motion"]
 	path = pack/bundle/start/comfortable-motion
 	url = https://github.com/yuttie/comfortable-motion.vim.git
-[submodule "pack/bundle/start/anyfold"]
-	path = pack/bundle/start/anyfold
-	url = https://github.com/pseewald/vim-anyfold.git
 [submodule "pack/bundle/start/vim-commentary"]
 	path = pack/bundle/start/vim-commentary
 	url = https://github.com/tpope/vim-commentary
