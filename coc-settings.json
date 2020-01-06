@@ -39,6 +39,8 @@
   "diagnostic.warningSign": "●",
   "diagnostic.displayByAle": false,
   "diagnostic.refreshOnInsertMode": true,
+  "diagnostic.messageTarget": "float",
+  "diagnostic.highlightOffset": 1000,
   //git
   "git.enableGutters": true,
   "git.branchCharacter":"\uf408",
