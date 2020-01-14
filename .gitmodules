@@ -46,3 +46,6 @@
 [submodule "pack/bundle/start/YankRing.vim"]
 	path = pack/bundle/start/YankRing.vim
 	url = https://github.com/vim-scripts/YankRing.vim.git
+[submodule "pack/bundle/start/markdown-preview.nvim"]
+	path = pack/bundle/start/markdown-preview.nvim
+	url = https://github.com/iamcco/markdown-preview.nvim.git
