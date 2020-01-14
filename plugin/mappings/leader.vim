@@ -21,9 +21,8 @@ vmap <Leader>/ :Commentary <CR>
 " Buffer navigation
 nnoremap <Leader>. :bn<cr>
 nnoremap <Leader>, :bp<cr>
-nnoremap <Leader>, :bp<cr>
 
-nmap <Leader>, :nohlsearch<CR>
+nmap <Leader><cr> :nohlsearch<CR>
 
 nnoremap <Leader>o :only<CR>
 
@@ -48,9 +47,9 @@ let g:ctrlp_prompt_mappings = {
                         \ 'PrtExpandDir()':       ['<tab>'],
                        \}
 let g:ctrlp_custom_ignore = {
-  \ 'dir':  '\.git$\|node_modules$',
+  \ 'dir':  '\.git$\|node_modules$\|ios$\|android$',
+  \ 'file': '\.so$\|\.dat$|\.DS_Store$'
   \ }
-  " \ 'file': '\.so$\|\.dat$|\.DS_Store$'
 
 nnoremap <Leader>h :UndotreeToggle \| UndotreeFocus<cr>
 
@@ -59,3 +58,5 @@ nnoremap <Leader>a :Ack!<Space>
 nnoremap <Leader>cd :lcd %:h<CR>
 nnoremap <Leader>l :CocCommand prettier.formatFile<CR>
 
+" open CWD directory
+nnoremap <LocalLeader>o :e ./<CR>

@@ -65,6 +65,7 @@ nmap <leader>qf  <Plug>(coc-fix-current)
 " Triger actions menu actions.
 nmap <leader>qa <Plug>(coc-codeaction)
 
+nnoremap <localLeader>t :CocCommand jest.projectTest<CR>
 " Use <C-d> for select selections ranges, needs server support, like: coc-tsserver, coc-python
 " nmap <silent> <C-d> <Plug>(coc-range-select)
 " xmap <silent> <C-d> <Plug>(coc-range-select)
