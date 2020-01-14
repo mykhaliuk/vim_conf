@@ -22,7 +22,7 @@ vmap <Leader>/ :Commentary <CR>
 nnoremap <Leader>. :bn<cr>
 nnoremap <Leader>, :bp<cr>
 
-nmap <Leader><cr> :nohlsearch<CR>
+nmap <Leader><cr> :nohlsearch<CR>   " :noh
 
 nnoremap <Leader>o :only<CR>
 
@@ -60,3 +60,9 @@ nnoremap <Leader>l :CocCommand prettier.formatFile<CR>
 
 " open CWD directory
 nnoremap <LocalLeader>o :e ./<CR>
+
+" Start Markdown preview
+nnoremap <LocalLeader>m :MarkdownPreview<CR>
+
+" Fix all in Markdown
+nnoremap <LocalLeader>mf :CocCommand markdownlint.fixAll<CR>
