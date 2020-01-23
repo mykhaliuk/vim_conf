@@ -22,7 +22,7 @@ vmap <Leader>/ :Commentary <CR>
 nnoremap <Leader>. :bn<cr>
 nnoremap <Leader>, :bp<cr>
 
-nmap <Leader><cr> :nohlsearch<CR>   " :noh
+nmap <Leader><cr> :nohlsearch<CR>
 
 nnoremap <Leader>o :only<CR>
 
